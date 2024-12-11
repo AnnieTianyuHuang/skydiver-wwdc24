@@ -61,12 +61,3 @@
 | **Data Persistence**           | Local persistence with `UserDefaults`               | ✅ **Met**    |
 
 ---
-
-## 🌟 **How to Get Started**
-1. **Install Requirements**:  
-   Ensure your device is running iOS 17.0+ and install the latest version of Xcode (15) on macOS Ventura 13.5 or later.  
-
-2. **Clone the Repository**:  
-   ```bash
-   git clone https://github.com/your-repo/skydiver-app.git
-   cd skydiver-app
