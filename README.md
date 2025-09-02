@@ -1,63 +1,45 @@
-# Skydiver App - README
+# Skydiver Simulator 🪂
 
----
+## Overview
+This project was selected as a **Global Top 50 winner at Apple’s Swift Student Challenge (WWDC 2024)**.  
 
-## 📱 **App Overview**
+The app is a **skydiving simulator game** built to teach the physics of skydiving. Many people (3 out of 5 globally) mistakenly think skydiving is almost certain death — this project helps correct that misconception by making the physics *visual, interactive, and fun*.  
 
-**Skydiver** is a physics-based skydiving simulation app designed to deliver an engaging and educational experience. Built for iOS 17.0+ using Xcode 15, the app invites users to explore the thrill of skydiving through intuitive controls, realistic physics, and a dynamic environment. Whether you're a skydiving enthusiast, a curious learner, or just seeking a fun challenge, Skydiver offers something for everyone.
+## Features
+- 🎮 **Normal Jump Mode** — freefall, parachute deployment, safe landing  
+- ⬆️ **High Altitude Jump** — experience unstable air resistance  
+- ⬇️ **Low Altitude Jump** — parachute fails to deploy in time  
+- ☁️ **Cloudy Weather** — reduced visibility changes how you control descent  
+- 🎵 **Dynamic Soundtrack** — AI-generated background music  
 
----
+## Impact
+- 🏆 **WWDC 2024 Swift Challenge Global Top 50** – presented to Tim Cook  
+- 📚 Adopted by a Toronto skydiving center as a teaching aid, reaching **1,000+ learners**  
+- 🚀 Demonstrated how AI can accelerate **0→1 full-stack product building** in just 2 days  
 
-## 🛠 **Description of Features and Compliance**
+## Next Steps
+- 🌐 Evolve into an **interactive sports education platform**  
+- 🥽 Integrate **VR/AR** for immersive training experiences  
+- 🔄 Expand simulator scenarios to cover more extreme sports physics  
 
-### 1. **Developed for iOS 17.0+**
-- **Requirement Met**:  
-  - The app is built with **Swift** and developed using **Xcode 15** on macOS Ventura 13.5, adhering to the latest iOS development standards.  
-  - Optimized for seamless performance on iPhones running iOS 17.0 or later.
+## Tech Stack
+- **Language / Framework:** Swift, SpriteKit  
+- **AI Tools:**  
+  - Figma + Magician AI → Flows and UI variations  
+  - DALL·E 3 → Storyboard-style visuals  
+  - Suno AI → Soundtrack generation  
+  - Cursor → Code editor + animation logic  
+  - ChatGPT-4 → Physics engine equations (freefall, drag, parachute deceleration)  
+  - Figma Make → AI edits on prototypes  
+  - CI Fuzz AI Agent → Device + user scenario robustness testing  
 
----
+## Installation & Run
+```bash
+# Clone repo
+git clone https://github.com/your-username/skydiver-simulator.git
+cd skydiver-simulator
 
-### 2. **App Logo**
-- **Requirement Met**:  
-  - The app features a custom-designed **Skydiver logo**, which combines clean text and an aviation-inspired icon.  
-  - The logo is prominently displayed on the **Intro Screen**, ensuring immediate recognition.
+# Open in Xcode
+open SkydiverSimulator.xcodeproj
 
----
-
-### 3. **Navigation with Three or More Screens**
-- **Requirement Met**:  
-  - The app includes **five distinct screens**, each with unique functionality:
-    1. **Intro Screen**: Displays the app logo and introduces the user to the skydiving adventure.  
-    2. **Phase One**: Basic skydiving simulation with introductory gameplay mechanics.  
-    3. **Phase Two**: Advanced simulation with dynamic environment interactions, such as flying through cloud clusters.  
-    4. **Phase Three**: High-stakes gameplay involving acceleration and crash avoidance.  
-    5. **End Screen**: A summary of the user's progress and encouragement for replay.  
-
----
-
-### 4. **Interactive Elements**
-- **Requirement Met**:  
-  - The app includes the following interactive features:
-    - **List**: Displays a log of completed phases and achievements.  
-    - **Alerts**: Provides feedback to users when they reach milestones or encounter obstacles.  
-    - **Animations**: Features dynamic animations for skydiver movements, cloud interactions, and parachute deployment.
-
----
-
-### 5. **Data Persistence**
-- **Requirement Met**:  
-  - Implements **local data persistence** using `UserDefaults` to save the user's progress, such as completed phases and settings preferences.  
-  - This ensures that the user's experience is retained across app sessions without requiring complex setup.
-
----
-
-### ✅ **How the App Meets All Requirements**
-| **Requirement**                | **Implementation**                                   | **Status**    |
-|--------------------------------|-----------------------------------------------------|---------------|
-| **iOS 17.0+ & Xcode 15**       | Developed with Xcode 15 on macOS Ventura 13.5       | ✅ **Met**    |
-| **App Logo**                   | Custom logo displayed on Intro Screen               | ✅ **Met**    |
-| **Three Screens**              | Five navigable screens                              | ✅ **Met**    |
-| **Interactive Elements**       | List, Alerts, and Animations included               | ✅ **Met**    |
-| **Data Persistence**           | Local persistence with `UserDefaults`               | ✅ **Met**    |
-
----
+# Build & run on iOS Simulator or device
